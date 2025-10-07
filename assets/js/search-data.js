@@ -405,16 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-we-have-officially-rolled-out-the-group-website-fell-free-to-add-information-to-your-profiles-and-give-any-feedback-that-comes-to-mind",
+          title: 'We have officially rolled out the group website, fell free to add information...',
           description: "",
           section: "News",},{id: "news-taehyeon-will-be-presenting-a-poster-at-the-icds-symposium-2025-on-october-6th-from-3-30-pm-to-5-30-pm-at-hub-robeson-center-alumni-hall-sparkles-smile",
           title: 'Taehyeon will be presenting a poster at the ICDS Symposium 2025 on October...',
