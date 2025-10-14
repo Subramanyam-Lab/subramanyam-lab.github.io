@@ -405,6 +405,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-paper-published-in-ieee-control-systems-letters",
+          title: 'Paper published in IEEE Control Systems Letters',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-12-11-LCSS-Published/";
             },},{id: "news-we-have-officially-rolled-out-the-group-website-fell-free-to-add-information-to-your-profiles-and-give-any-feedback-that-comes-to-mind",
           title: 'We have officially rolled out the group website, fell free to add information...',
           description: "",
