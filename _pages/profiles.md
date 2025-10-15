@@ -28,6 +28,9 @@ profiles:
     - align: left
       image: tom.jpg
       content: about/tom.md
+    - align: left
+      image: jessica.jpg
+      content: about/jessica.md
 
   M.S. Students:
     - align: left
