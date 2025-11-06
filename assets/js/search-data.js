@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -405,12 +405,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-published-in-ieee-control-systems-letters",
-          title: 'Paper published in IEEE Control Systems Letters',
+            },},{id: "news-our-paper-reduced-sample-complexity-in-scenario-based-control-system-design-via-constraint-scaling-has-been-published-in-ieee-control-systems-letters",
+          title: 'Our paper “Reduced Sample Complexity in Scenario-Based Control System Design via Constraint Scaling”...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-12-11-LCSS-Published/";
-            },},{id: "news-we-have-officially-rolled-out-the-group-website-fell-free-to-add-information-to-your-profiles-and-give-any-feedback-that-comes-to-mind",
+          section: "News",},{id: "news-we-have-officially-rolled-out-the-group-website-fell-free-to-add-information-to-your-profiles-and-give-any-feedback-that-comes-to-mind",
           title: 'We have officially rolled out the group website, fell free to add information...',
           description: "",
           section: "News",},{id: "news-taehyeon-will-be-presenting-a-poster-at-the-icds-symposium-2025-on-october-6th-from-3-30-pm-to-5-30-pm-at-hub-robeson-center-alumni-hall-sparkles-smile",
