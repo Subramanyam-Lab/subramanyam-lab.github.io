@@ -102,33 +102,39 @@ Short summary or abstract of the publication.
 - Open the relevant file in `_bibliography/` and update details as needed.
 
 ---
+
 ## 4. Adding a Repository
 
 1. Make sure your repository is ready to go public (no sensitive files, clear README, builds cleanly).
 
 2. Set visibility to Public:
 
-* GitHub → Settings → General → Change repository visibility → Public.
+- GitHub → Settings → General → Change repository visibility → Public.
 
-* Verify the link opens in a private/incognito window without login.
+- Verify the link opens in a private/incognito window without login.
 
 3. Send the repository link to the repository maintainer via Slack.
 
 4. Wait for confirmation before making further changes.
+
 ## 5. Previewing Your Changes Locally
 
 Before submitting a Pull Request, preview your updates on your machine to confirm formatting, links, and images render correctly.
 
 ### Recommended: Docker preview
+
 1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
 2. From the repository root, start the site:
+
 ```bash
 docker compose pull
 docker compose up
 ```
+
 3. Open your browser to `http://localhost:8080`.
 
 Edits to your profile, news, or publications (Sections **1–3**) will hot‑reload within a few seconds. If the container shows errors, check logs and enter the container:
+
 ```bash
 docker compose logs
 docker compose exec -it jekyll /bin/bash
@@ -139,12 +145,15 @@ bundle install
 For more detail, see **al‑folio**’s guide: [Local setup using Docker (Recommended)](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md#local-setup-using-docker-recommended).
 
 ### Alternative: Local Jekyll preview
+
 If you already have Ruby, Bundler, and Python set up (legacy approach):
+
 ```bash
 bundle install
 pip install jupyter
 bundle exec jekyll serve
 ```
+
 Then open `http://localhost:4000`. See: [Local Setup (Legacy)](https://github.com/alshedivat/al-folio/blob/main/INSTALL.md#local-setup-legacy-no-longer-supported).
 
 If everything looks good locally, proceed to Section **5. Submitting Your Changes**.
